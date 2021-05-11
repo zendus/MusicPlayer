@@ -1,2 +1,2 @@
 # MusicPlayer
-A music player build with flutter
+A music player built with flutter
