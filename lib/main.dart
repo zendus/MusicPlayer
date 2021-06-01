@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_player/screens/home_page.dart';
+import 'package:music_player/screens/play_multi_songs.dart';
 
 // class MyWidget extends StatelessWidget {
 //   Widget build(BuildContext context) {
@@ -21,14 +22,14 @@ class MyMusicApp extends StatelessWidget {
     return MaterialApp(
       title: 'Music Player',
       theme: ThemeData(
-        // brightness: Brightness.dark,
+        brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
       ),
 
       // color: Colors.black,
 
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: AudioPlayerBackgroundPlaylist(),
     );
   }
 }
